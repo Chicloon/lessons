@@ -1,5 +1,15 @@
 import React from 'react';
 
-export default ({children})=> {
-    return <div className="container">{children} </div>
-}   
+import Header from './Header';
+
+const App = (props) => {
+  return (
+    <div>
+      <Header />
+      {props.children}
+      App component
+    </div>
+  );
+}
+
+export default App;
