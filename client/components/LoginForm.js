@@ -20,7 +20,7 @@ class LoginForm extends Component {
     // in place when component rerenders
 
     if(!this.props.data.user && nextProps.data.user) {
-      hashHistory.push('/');
+      hashHistory.push('/dashboard');
     }
   }
 
