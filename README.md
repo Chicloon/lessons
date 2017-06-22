@@ -1,4 +1,3 @@
-Репозитарий с учебными проектами для освоения GraphQL + Apollo. Стэк: backend - express + graphql; frontend - react + apollo
+# auth-graphql-starter
+Starter project from a GraphQL course on Udemy.com - Section 3!
 
-В ветке Lyrical начальный проект
-В ветке auth пример проетка с авторизацией на основе passport
