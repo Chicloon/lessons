@@ -6,8 +6,7 @@ const App = (props) => {
   return (
     <div className="container">
       <Header />
-      {props.children}
-      App component
+      {props.children}      
     </div>
   );
 }
